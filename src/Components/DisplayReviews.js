@@ -25,9 +25,9 @@ const DisplayReviews = ({movieID}) => {
         <div className="reviews">
             {!reviews ? <div id='spinner'><Spinner variant='light'/></div> :
             reviews.length === 0 ? <div className="no-reviews">Be the first to write a review!</div> :
-            reviews.map((review) => (
+            Array.isArray(reviews) ? reviews.map((review) => (
                 <Review key={review._id} reviewData={review}/>
-            ))
+            )) : <div className="no-reviews">No reviews found.</div>
             }
         </div>
     )
