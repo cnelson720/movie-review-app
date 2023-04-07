@@ -1,0 +1,68 @@
+:root{
+    --blue: #0A1626;
+    --gray: #818DA6;
+    --light-grey: #CEDAF2;
+    --green: #2F736C;
+    --light-green: #59D9B5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--blue);
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.main-container{
+    
+}
+
+
+.latest-releases-container{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.latest-releases-container h1{
+    color: var(--gray);
+    text-align: center;
+}
+
+.card-container{
+
+}
+
+.movie-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+#spinner{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background: var(--green);
+    height: 100px;
+}
+
+
+@media (min-width: 1000px){
+    .card-container{
+
+    }
+
+    .movie-cards{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: -20px;
+        row-gap: 25px;
+    }
+}

@@ -1,0 +1,16 @@
+.main-button{
+    background: var(--light-green);
+    border-color: var(--light-green);
+    color: var(--blue);
+}
+
+.main-button:hover{
+    background: var(--blue);
+    border-color: var(--light-green);
+}
+
+.main-button:disabled{
+    background: var(--gray);
+    color: var(--blue);
+    border-color: var(--gray);
+}

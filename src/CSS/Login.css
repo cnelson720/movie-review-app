@@ -1,0 +1,22 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.login-container h1{
+    color: var(--light-grey);
+}
+
+.login-form{
+    width: 75vw;
+}
+
+.login-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,11 @@
+.searchBtn{
+    background: var(--green);
+    border-color: var(--green);
+    color: var(--blue);
+}
+
+.searchBtn:hover{
+    border-color: var(--light-green);
+    background: var(--green);
+    color: var(--light-green);
+}

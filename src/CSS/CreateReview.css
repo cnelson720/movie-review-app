@@ -1,0 +1,60 @@
+.review-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-container h2{
+    color: var(--light-grey);
+}
+
+.review-container h6{
+    color: var(--light-grey);
+}
+
+.title{
+    font-style: italic;
+    margin-top: 1%;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rating span{
+    font-size: 2rem;
+    color: var(--light-grey);
+}
+.unselectedStar{
+    color: var(--light-grey);
+    font-size: 1.5rem;
+}
+
+.selectedStar{
+    color: var(--light-green);
+    font-size: 1.5rem;
+
+}
+
+.hoveredStar{
+    color: var(--light-green);
+    font-size: 1.5rem;
+}
+
+.review-form{
+    width: 70%;
+    margin-top: 2%;
+    max-width: 500px;
+}
+
+.description-form{
+    resize: none;
+    background: var(--light-grey);
+    height: 20vh;
+
+}
+
+.reviewSubmit{
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    row-gap: 10px;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.no-reviews{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
